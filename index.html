@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/Css/NavBar.css" />
+  <link rel="stylesheet" href="assets/Css/Pages.css" />
+
+  <title>Site Portal</title>
+</head>
+<body class="corpo">
+
+  <!-- Navbar no TOPO -->
+  <div class="navbar-top">
+    <div class="navitems-top">
+      <ul class="lista">
+        <li class="item ativo" data-pagina="home" onclick="selecionar(this)">
+          <a href="javascript:void(0)" class="icon"><i class="bx bx-home-alt"></i></a>
+          <a href="javascript:void(0)" class="link">Home</a>
+        </li>
+        <li class="item" data-pagina="cabelo" onclick="selecionar(this)">
+          <a href="javascript:void(0)" class="icon"><i class="bx bx-donate-heart"></i></a>
+          <a href="javascript:void(0)" class="link">Cabelo</a>
+        </li>
+        <li class="item" data-pagina="make" onclick="selecionar(this)">
+          <a href="javascript:void(0)" class="icon"><i class="bx bx-spa"></i></a>
+          <a href="javascript:void(0)" class="link">Make</a>
+        </li>
+        <li class="item" data-pagina="shop" onclick="selecionar(this)">
+          <a href="javascript:void(0)" class="icon"><i class="bx bx-shopping-bag"></i></a>
+          <a href="javascript:void(0)" class="link">Shop</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Navbar em BAIXO -->
+  <div class="navbar">
+    <div class="navitems">
+      <ul class="lista">
+        <li class="item ativo" data-pagina="home" onclick="selecionar(this)">
+          <a href="javascript:void(0)" class="icon"><i class="bx bx-home-alt"></i></a>
+          <a href="javascript:void(0)" class="link">Home</a>
+        </li>
+        <li class="item" data-pagina="cabelo" onclick="selecionar(this)">
+          <a href="javascript:void(0)" class="icon"><i class="bx bx-donate-heart"></i></a>
+          <a href="javascript:void(0)" class="link">Cabelo</a>
+        </li>
+        <li class="item" data-pagina="make" onclick="selecionar(this)">
+          <a href="javascript:void(0)" class="icon"><i class="bx bx-spa"></i></a>
+          <a href="javascript:void(0)" class="link">Make</a>
+        </li>
+        <li class="item" data-pagina="shop" onclick="selecionar(this)">
+          <a href="javascript:void(0)" class="icon"><i class="bx bx-shopping-bag"></i></a>
+          <a href="javascript:void(0)" class="link">Shop</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Conteudo -->
+  <div class="conteudo">
+    <!-- Conteúdo vai ser carregado aqui -->
+  </div>
+
+  <script src="assets/Js/script.js"></script>
+</body>
+</html>
