@@ -32,3 +32,4 @@ function mudarConteudo(pagina) {
 document.addEventListener('DOMContentLoaded', () => {
   selecionar(document.querySelector('.item[data-pagina="home"]'));
 });
+
