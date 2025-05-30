@@ -166,7 +166,7 @@ body::-webkit-scrollbar {
 /* Desktop */
 @media (min-width: 769px) {
   .lista-destaques li {
-    background: #fffaf1;
+    background: #fadced;
     border-left: 6px solid rgb(253, 144, 220);
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
     margin-bottom: 30px;
