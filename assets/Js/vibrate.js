@@ -6,7 +6,7 @@ const buttons = document.querySelectorAll('.item');
 buttons.forEach(button => {
   button.addEventListener('click', () => {
     if (navigator.vibrate) {
-      navigator.vibrate(20); // vibra por 100ms
+      navigator.vibrate(40); // vibra por 100ms
     }
   });
 });
